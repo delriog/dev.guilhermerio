@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { PerfilComponent } from './perfil/perfil.component';
+import { AnimatedSvgComponent } from './animated-svg/animated-svg.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { PerfilComponent } from './perfil/perfil.component';
     AppComponent,
     MenuHeaderComponent,
     PerfilComponent,
+    AnimatedSvgComponent,
   ],
   imports: [
     BrowserModule,
