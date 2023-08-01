@@ -1,0 +1,52 @@
+.navbar{
+    height: 100px;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo{
+    margin-left: 2%;
+    display: flex;
+    flex: 18%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.titulo{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace bold;
+    font-weight: 800;
+}
+
+.icons{
+    flex: 79%;
+    text-align: right;
+    margin-right: 1%;
+}
+
+.mat-icon.mat-icon-inline{
+    width: 45px;
+    height: auto;
+}
+
+.icon{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgbrgb(30, 30, 30);
+    fill: whitesmoke;
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.icon:hover{
+    color: #76C2AF;;
+    fill: #76C2AF;;
+}
