@@ -8,12 +8,14 @@ import { MenuHeaderComponent } from './menu-header/menu-header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuHeaderComponent,
+    PerfilComponent,
   ],
   imports: [
     BrowserModule,
