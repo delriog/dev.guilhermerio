@@ -1,31 +1,71 @@
 .container-perfil{
     flex-flow: row wrap;
-    /* background-color: rgb(45, 45, 45); */
     margin-top: 0px;
-    /* border: 1px solid red; */
     display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+
+}
+
+.container-coluna{
+    flex: 50%;
+    margin: 0;
 }
 
 .perfil{
-    flex: 39%;
-    /* border: 1px solid purple; */
-    margin-left: 1%;
-    margin-right: 10%;
-    /* color: white; */
+    display: flex;
+    color: white;
+    height: 300px;
+}
+
+.texto-perfil{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: left;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.perfil img{
+    margin-top: 5%;
+    border-radius: 50%;
+    align-items: center;
 }
 
 .perfil h1{
-    font-size: 80px;
+    font-size: 70px;
+    color: #fff760;
+    margin: 0;
 }
 
 .perfil h2{
-    font-size: 50px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.perfil h3{
+    font-size: 30px;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.container-formacao{
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.container-formacao h3{
+    font-size: 30px;
 }
 
 .container-animacao{
-    flex: 45%;
-    width: 750px;
-    /* border: 1px solid red; */
+    flex: 40%;
+    width: 500px;
     margin-left: auto;
-    margin-right: 5%;
+    flex-shrink: 0;
 }
